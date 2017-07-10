@@ -337,15 +337,16 @@ ul.notification-list li a.request.inactive{
 	background-image: url("../images/friend-request-icon.png");
 	background-position: left;
 	background-repeat: no-repeat;
+	font-weight: normal;
 }
 ul.notification-list li a.invite.inactive{
-	background-image: url("../images/invite-icon-active.png");
+	background-image: url("../images/invite-icon-inactive.png");
 	font-weight: normal;
 	background-position: left;
 	background-repeat: no-repeat;
 }
 ul.notification-list li a.request.active{
-	background-image: url("../images/friend-request-icon.png");
+	background-image: url("../images/friend-request-icon-active.png");
 	font-weight: bold;
 	background-position: left;
 	background-repeat: no-repeat;
